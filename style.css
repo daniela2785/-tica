@@ -57,7 +57,7 @@ nav a.btn_destaque{
 .sec01 {
    height: 550px;
    color: white;
-   background-image: url(../htmlcss/oticas.png);
+   background-image: url(../Oticas/oticas.png);
    background-repeat: no-repeat;
    background-position: center;
    position: relative;
@@ -81,7 +81,7 @@ nav a.btn_destaque{
 
 .sec02 p{
    font-size:20px;
-   text-align: center;
+   text-align: center
 }
 
 .sec02 img {
@@ -92,8 +92,7 @@ nav a.btn_destaque{
 
 .sec03{
    background-color: rgb(239, 243, 249);
-   background-image: url(../htmlcss/home22.png);
-   height: 665px;
+   background-image: url(../Oticas/home22.png);
    background-position: right;
    background-repeat: no-repeat;
 }
@@ -204,6 +203,10 @@ min-height: 100px;
    vertical-align: top
 }
  
+.modal{
+   position: fixed;
+   width: 400px;
+}
 
 @media (min-width: 480px) and (max-width: 1366px){ 
    .barra_superior .container{
