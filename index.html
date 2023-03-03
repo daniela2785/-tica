@@ -2,25 +2,28 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <m''eta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    
     <title> Ótica</title>
 
 </head>
 <body>
-    <div class="modal">
-        <h2>Ofertas de 10%</h2>
-        <p>
-            <form>
-            Digite o seu e-mail e ganhe 10% de desconto em qualquer compra:
-            <input type="text" name="email"/>
-                <input type="submit" value="Enviar"
-                class="btn_destaque"/>
-    </form>
-    </p>
-    </div>
+<div class="modal">
+    <a>X</a>
+    <h2>Ofertas de 10%</h2>
+    <p>
+        <form name="modal_form" method="get">
+        Digite o seu e-mail e ganhe 10% de desconto em qualquer compra:
+        <br/>
+        <input type="text" name="email" placeholder="E-mail"/><br/>
 
+        <br/>
+        <span class="nao_valido">E-mail inválido</span>
+        <input type="submit" value="Enviar" class="btn_destaque"  />
+        </form>
+    </p>
+</div>
 
 <header>
         <div class="barra_superior">
@@ -29,7 +32,6 @@
             Horário de abertura: 09:00 as 18:00h
 
         </div>
-
         </div>
 
         <div class="container">
@@ -76,7 +78,7 @@
 
 <section class="sec03">
     <div class="container">
-        <div class="metade">
+        <div class="largura40">
     <p>Grande<br />
      variedade<br />
      de armações</p>	
@@ -128,7 +130,9 @@
     </div>
 
 </footer>
+<script type="text/javascript" src="javascript.js">
 
+</script>
 
 </body>
 </html>
