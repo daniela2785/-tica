@@ -20,8 +20,10 @@ if(document.forms["modal_form"] != undefined){
     var form = document.forms["modal_form"];
 
     form.addEventListener("submit", validarFormModal);
+    form.email.addEventListener("keyup", function() {
+        form.email.
 
-}
+})
 
 function validarFormModal(evt){
     var form = document.forms["modal_form"];
@@ -36,13 +38,10 @@ function validarFormModal(evt){
         valorEmail != "" &&
         valorEmail.indexOf("@") > 3 && 
         valorEmail.lastIndexOf(".") > posicaoArroba
-    ){
-
-       
-    }
+    ){}
     else{
         
-        inputemail.classname="nao_valido";
+        inputEmail.className="nao_valido";
         document.querySelector("span.nao_valido").style.display = "block";
         evt.preventDefault();
     }
