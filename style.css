@@ -239,21 +239,21 @@ input.nao_valido{
 border-bottom: 1px solid red !important;
 }
 
-@media (min-width: 480px) and (max-width: 1366px){ 
+@media (min-width: 100px) and (max-width: 700px){ 
    .barra_superior .container{
       margin-left: 20px;
       position: relative;
    }
 }
 
-@media (min-width: 480px) and (max-width: 1366px){ 
+@media (min-width: 100px) and (max-width: 700px){ 
    .logo{
       width: 105%;
       position: relative;
    }
 }
 
-@media (min-width: 480px) and (max-width: 1366px){  
+@media (min-width: 100px) and (max-width: 700px){  
    nav{
       float: none;
       margin-top: 25px;
@@ -262,7 +262,7 @@ border-bottom: 1px solid red !important;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .sec01{
       width: 150%;
       background-color: rgb(164, 164, 164);    
@@ -270,13 +270,13 @@ border-bottom: 1px solid red !important;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){ 
+@media (min-width: 100px) and (max-width: 700px){ 
    .sec01 p, .sec01, .btn_destaque{
       margin-left: 0px;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .sec03{
 
       border-bottom: 1px solid rgb(204, 204, 204);
@@ -287,25 +287,25 @@ border-bottom: 1px solid red !important;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){ 
+@media (min-width: 100px) and (max-width: 700px){ 
    .sec03 p{
       padding-top: 5px;
    }
 }
  
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
 .sec03 .btn_destaque{
       margin-bottom: 30px;
    } 
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .sec03 .btn_destaque{
       margin-bottom: 20px;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .largura40{
       width: 100%;
       margin-left: 20px;
@@ -313,20 +313,20 @@ border-bottom: 1px solid red !important;
    }  
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .btn_destaque{
       margin: 20px;
       padding: 10px 14px;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .sec01 p{
       margin: 20px;
       }
    }
 
-   @media (min-width: 200px) and (max-width: 900px){
+   @media (min-width: 100px) and (max-width: 700px){
    nav a.btn_destaque{
       float: none;
       margin-left: 3px;
@@ -336,19 +336,19 @@ border-bottom: 1px solid red !important;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .sec02 img{
       width: 100%;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .direitos_reservados{
       position: relative;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){
+@media (min-width: 100px) and (max-width: 700px){
    .um_terco{
       padding-top: 15px;
       padding-bottom: 15px;
@@ -358,7 +358,7 @@ border-bottom: 1px solid red !important;
    }
 }
 
-@media (min-width: 200px) and (max-width: 900px){ 
+@media (min-width: 100px) and (max-width: 2000px){ 
 .sec01 p.titulo{
    font-size: 45px;
 }
